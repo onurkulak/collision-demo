@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "falling", "falling\falling.vcxproj", "{AB5A6B38-D812-7646-BEBB-16637890ED03}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample", "sample\sample.vcxproj", "{26520639-289E-6B6E-A043-522548B93D9F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spinning", "spinning\spinning.vcxproj", "{71C6E3EB-17EE-54F8-FE93-5055C525D163}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB5A6B38-D812-7646-BEBB-16637890ED03}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB5A6B38-D812-7646-BEBB-16637890ED03}.Debug|Win32.Build.0 = Debug|Win32
+		{AB5A6B38-D812-7646-BEBB-16637890ED03}.Release|Win32.ActiveCfg = Release|Win32
+		{AB5A6B38-D812-7646-BEBB-16637890ED03}.Release|Win32.Build.0 = Release|Win32
+		{AB5A6B38-D812-7646-BEBB-16637890ED03}.Template|Win32.ActiveCfg = Release|Win32
+		{AB5A6B38-D812-7646-BEBB-16637890ED03}.Template|Win32.Build.0 = Release|Win32
+		{26520639-289E-6B6E-A043-522548B93D9F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{26520639-289E-6B6E-A043-522548B93D9F}.Debug|Win32.Build.0 = Debug|Win32
+		{26520639-289E-6B6E-A043-522548B93D9F}.Release|Win32.ActiveCfg = Release|Win32
+		{26520639-289E-6B6E-A043-522548B93D9F}.Release|Win32.Build.0 = Release|Win32
+		{26520639-289E-6B6E-A043-522548B93D9F}.Template|Win32.ActiveCfg = Template|Win32
+		{26520639-289E-6B6E-A043-522548B93D9F}.Template|Win32.Build.0 = Template|Win32
+		{71C6E3EB-17EE-54F8-FE93-5055C525D163}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71C6E3EB-17EE-54F8-FE93-5055C525D163}.Debug|Win32.Build.0 = Debug|Win32
+		{71C6E3EB-17EE-54F8-FE93-5055C525D163}.Release|Win32.ActiveCfg = Release|Win32
+		{71C6E3EB-17EE-54F8-FE93-5055C525D163}.Release|Win32.Build.0 = Release|Win32
+		{71C6E3EB-17EE-54F8-FE93-5055C525D163}.Template|Win32.ActiveCfg = Template|Win32
+		{71C6E3EB-17EE-54F8-FE93-5055C525D163}.Template|Win32.Build.0 = Template|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

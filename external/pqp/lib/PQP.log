@@ -1,0 +1,41 @@
+﻿Build started 7/26/2013 6:40:29 PM.
+Project "\\psf\Home\Desktop\PQP\PQP.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file ".\lib\PQP.lastbuildstate".
+InitializeBuildStatus:
+  Creating ".\lib\PQP.unsuccessfulbuild" because "AlwaysCreate" was specified.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /Od /Ot /Oy- /D WIN32 /D NDEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /Gm- /EHsc /MT /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\lib\\" /Fd".\lib\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\Build.cpp src\BV.cpp src\PQP.cpp src\TriDist.cpp
+  Build.cpp
+  BV.cpp
+  PQP.cpp
+\\psf\home\desktop\pqp\src\GetTime.h(53): warning C4996: '_ftime64': This function or variable may be unsafe. Consider using _ftime64_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\sys/timeb.h(124) : see declaration of '_ftime64'
+  TriDist.cpp
+  Generating Code...
+Lib:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:".\lib\PQP.lib" /NOLOGO .\lib\Build.obj
+  .\lib\BV.obj
+  .\lib\PQP.obj
+  .\lib\TriDist.obj
+  PQP.vcxproj -> \\psf\Home\Desktop\PQP\.\lib\PQP.lib
+PostBuildEvent:
+  copy   src\PQP.h   include
+  copy   src\PQP_Internal.h   include 
+  copy    src\PQP_Compile.h   include
+  copy   src\Tri.h   include
+  copy   src\BV.h   include
+  :VCEnd
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+          1 file(s) copied.
+FinalizeBuildStatus:
+  Deleting file ".\lib\PQP.unsuccessfulbuild".
+  Touching ".\lib\PQP.lastbuildstate".
+Done Building Project "\\psf\Home\Desktop\PQP\PQP.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.82
